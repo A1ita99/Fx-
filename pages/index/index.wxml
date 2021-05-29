@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+<button class="option" bindtap="ClickRegister">设置信息</button>
+<button class="show" bindtap="ClickShow">显示</button>
+</view>

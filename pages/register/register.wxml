@@ -1,0 +1,27 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+<form catchsubmit="formSubmit" catchreset="formReset">
+  <view class="input" >门岗
+              <input class="" name="door" placeholder="石牌校区西门" />
+</view>
+<view class="input" >姓名
+              <input class="" name="name" placeholder="司尼格" />
+</view>
+<view class="input" >宿舍
+              <input class="" name="dom" placeholder="东十九栋xxx" />
+</view>
+<view class="input" >学号
+              <input class="" name="xuehao" placeholder="学号" />
+</view>
+<view class="input" >单位
+              <input class="" name="danwei" placeholder="计算机学院" />
+</view>
+<view class="input" >电话
+              <input class="" name="phone" placeholder="电话" />
+</view>
+  <view class="btn-area">
+        <button style="margin: 30rpx 0" type="primary" formType="submit">提交</button>
+        <button style="margin: 30rpx 0" formType="reset">清空</button>
+      </view>
+  </form>
+</view>

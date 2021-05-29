@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+
+.option{
+  height: 100rpx;
+  margin-bottom: 50rpx;
+}
+.show{
+  height: 100rpx;
+}

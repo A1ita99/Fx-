@@ -1,11 +1,11 @@
 .footer{
-  position: fixed;
-  bottom: 0px;
-  height: 100rpx;
-  width: 100%;
-  display: flex;
-  background-color: white;
-  border: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	height: 90rpx;
+	background-color: white;
+	display: flex;
+	box-sizing: border-box
 }
 .footer-item{
   margin: auto;
@@ -26,6 +26,12 @@
  .cu-chat {
 	display: flex;
 	flex-direction: column;
+
+}
+.cu-chat::after{
+	content: "";
+	width: 100%;
+	height: 90rpx;
 }
 
 .cu-chat .cu-item {
